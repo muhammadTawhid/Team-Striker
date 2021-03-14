@@ -18,7 +18,7 @@ const Main = () => {
         <div className="container">
 
             <div className="my-4 card bg-dark text-white">
-                <img style={{ maxHeight: "200px" }} src="https://cdn.imgbin.com/7/2/0/imgbin-olympic-football-stadium-rT9jFx1aJKcYG7euiS06AA6tJ.jpg" className="card-img" alt="..." />
+                <img style={{ maxHeight: "200px" }} src="https://st2.depositphotos.com/3725083/5486/i/600/depositphotos_54860225-stock-photo-stadium.jpg" className="card-img" alt="..." />
                 <div className="card-img-overlay d-flex justify-content-center align-items-center">
                     <h1 className="card-title">Team Striker</h1>
                 </div>
