@@ -9,7 +9,7 @@ const Team = (props) => {
 
     return (
 
-        <div className='col-3 my-4 d-flex justify-content-center  p-3 mb-5 bg-body rounded'>
+        <div className='col-lg-3 col-sm-2 my-4 d-flex justify-content-center  p-3 mb-5 bg-body rounded'>
 
             <div className="card shadow  rounded" style={{ width: "20rem" }}>
                 <img src={strTeamBadge} className="p-4 card-img-top" alt="..." />
@@ -29,11 +29,3 @@ const Team = (props) => {
 
 export default Team;
 
-
-//  <div>
-//               <ShowDetails>
-//                   <Link to='/ShowDetails'>
-//                   <button className='btn btn-primary'>Explore</button>
-//                   </Link>
-//               </ShowDetails>
-//           </div>

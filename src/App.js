@@ -23,6 +23,9 @@ function App() {
         <Route path="/details/:idTeam">
           <Details></Details>
         </Route>
+        <Route>
+          
+        </Route>
       </Switch>
     </Router>
 

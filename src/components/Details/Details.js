@@ -79,8 +79,7 @@ const Details = () => {
 
                 <Link to={strFacebook}>
                     <img style={{ maxWidth: "60px" }}
-                        src="https://amazingroofwash.com/wp-content/uploads/2018/07/fb-icon.png
-                      " alt="..." />
+                        src="https://amazingroofwash.com/wp-content/uploads/2018/07/fb-icon.png                      " alt="..." />
                 </Link>
                 <Link to={strTwitter}>
                     <img style={{ maxWidth: "40px", }}
