@@ -14,7 +14,7 @@ const Details = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setTeamDetails(data.teams[0]))
-    })
+    }, [idTeam])
 
     const { strTeamBadge, strTeam, strCountry, strAlternate, strGender, strFacebook, strInstagram,strTwitter
      } = teamDetails
