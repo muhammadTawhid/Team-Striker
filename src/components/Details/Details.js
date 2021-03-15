@@ -16,13 +16,13 @@ const Details = () => {
             .then(data => setTeamDetails(data.teams[0]))
     })
 
-    const { strTeamBadge, strTeam, strCountry, strAlternate, strGender, strWebsite,strFacebook, strInstagram,strTwitter
+    const { strTeamBadge, strTeam, strCountry, strAlternate, strGender, strFacebook, strInstagram,strTwitter
      } = teamDetails
 
     return (
+      
 
-
-        <div className='text-white ' style={{ maxWidth: "1200px", marginLeft: " 85px", backgroundColor: "#2A3142" }}>
+            <div className='text-white col-lg-3 col-sm-2' style={{ maxWidth: "1200px", marginLeft: " 85px", backgroundColor: "#2A3142" }}>
             <div className="card bg-dark text-white">
                 <img style={{ maxHeight: "250px" }} src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c3RhZGl1bXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" className="card-img" alt="..." />
                 <div className="card-img-overlay">
@@ -93,6 +93,10 @@ const Details = () => {
             </div>
 
         </div>
+         
+
+
+
     );
 };
 
